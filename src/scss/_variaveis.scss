@@ -1,0 +1,33 @@
+// /* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+$font-family: "Roboto", sans-serif;
+
+/* Colors */
+
+$primary: #00C0EE;
+$color-gray2: #666666;
+$color-gray: #808080;
+
+$color-black: #000000;
+
+// Mains breakpoints
+$full: 2500px;
+$tablets: 1024px;
+$phone: 490px;
+
+/* Grid breakpoints */
+$grid-breakpoints: (
+	xs: 0,
+	cstm: 400,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl:2500px) !default;
+
+$z-index: (
+	level1: 5,
+	level2: 10,
+	level3: 15,
+	level4: 20,
+	level5: 25) !default;
